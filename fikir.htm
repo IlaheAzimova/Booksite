@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .card,
+        .btn,
+        #list {
+            box-shadow: 0 0 10px #333;
+
+        }
+    </style>
+</head>
+
+<body class="bg-[#f3e5d4]">
+    <h1 class=" mtn font-bold text-center my-[15vh] text-[26px]">Fikirləriniz bizim üçün dəyərlidir ! </h1>
+    <div
+        class=" card bg-white border border-gray-200 shadow-md p-6 w-full max-w-sm rounded-lg overflow-hidden mx-auto mt-4">
+
+
+        <div
+            class="relative flex flex-col items-center px-1 bg-gray-50 border-2 border-gray-200 focus-within:border-[#007bff] focus-within:bg-white rounded-lg mt-6">
+            <textarea placeholder="Fikirlərinizi daxil edin" id="text"
+                class="p-3 text-slate-900 w-full text-sm bg-transparent outline-none"></textarea>
+            <button type="button" onclick="commentYaz()"
+                class=" btn px-4 py-2.5 cursor-pointer rounded-lg text-white text-sm font-medium tracking-wider border-none outline-none bg-blue-600 hover:bg-blue-700 m-2">Send</button>
+        </div>
+
+    </div>
+    <ul id="list" class="w-95 bg-white rounded-xl text-center  mx-auto">
+    </ul>
+    <script src="fikir.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -30,6 +30,9 @@ for (let i = 0; i < ad.length; i++) {
     `
 
 }
+
+
+
 let list = document.getElementById('list')
 
 function openmenu() {

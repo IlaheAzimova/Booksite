@@ -36,6 +36,10 @@
             text-align: center;
         }
 
+        .box {
+            box-shadow: 0 0 10px #022e18;
+        }
+
         @media only screen and (min-width:768px) {
 
             .menudetails {
@@ -56,6 +60,7 @@
             </a>
             <span class="font-bold text-[19px]"> <span class="text-white">World</span><span
                     class="text-green-600">Books</span></span>
+
 
             <div id="collapseMenu"
                 class='max-lg:hidden lg:!block max-lg:w-full max-lg:fixed max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50'>
@@ -82,18 +87,16 @@
                         <a href='javascript:void(0)'
                             class='font-medium lg:hover:text-blue-700 text-blue-700 block text-[15px]'>Home</a>
                     </li>
-                    <li class='max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3'><a href='javascript:void(0)'
-                            class='font-medium lg:hover:text-blue-700 text-white block text-[15px]'>Books</a>
+                    <li class='max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3'><a href='about.htm'
+                            class='font-medium lg:hover:text-blue-700 text-white block text-[15px]'>About</a>
                     </li>
                     <li class='max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3'><a href='javascript:void(0)'
                             class='font-medium lg:hover:text-blue-700 text-white block text-[15px]'>Feature</a>
                     </li>
-                    <li class='max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3'><a href='javascript:void(0)'
-                            class='font-medium lg:hover:text-blue-700 text-white block text-[15px]'>Blog</a>
+                    <li class='max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3'><a href='contact.htm'
+                            class='font-medium lg:hover:text-blue-700 text-white block text-[15px]'>Contact</a>
                     </li>
-                    <li class='max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3'><a href='javascript:void(0)'
-                            class='font-medium lg:hover:text-blue-700 text-white block text-[15px]'>About</a>
-                    </li>
+
                 </ul>
             </div>
 
@@ -124,11 +127,10 @@
                     <img src="logo.png" alt="" class="w-20 mx-auto">
                     <ul class="top">
 
-                        <li><a href="">Home</a></li>
+                        <li><a href="index.htm">Home</a></li>
                         <li><a href="about.htm">About</a></li>
-                        <li><a href="">Books</a></li>
                         <li><a href="">Feature</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="contact.htm">Contact</a></li>
 
                     </ul>
                 </div>
@@ -140,7 +142,10 @@
 
 
     </header>
-    <main class="bg-[#fbe7cc]">
+    <main class="bg-[#fbe7cc] relative">
+        <a href="fikir.htm"
+            class="absolute right-0 top-0 m-5 bg-[#64a952] p-2 rounded-2xl box text-white font-bold text-[14px]">Fikir
+            bildir</a>
         <div class="flex items-center text-center mx-auto justify-center">
             <div class="w-10 pt-14">
                 <img src=" book.png" alt="">
